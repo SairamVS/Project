@@ -1,0 +1,47 @@
+.Lib {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: #111010;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .Lib input[type="text"],
+  .Lib input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .Lib .login-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Lib button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Lib button:hover {
+    background-color: #45a049;
+  }
+  
+  .submitt {
+    width: 100%;
+  }
+  

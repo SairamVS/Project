@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    font-family: Arial, sans-serif;
+  }
+  
+  thead {
+    background-color: #161515;
+    color: rgb(216, 77, 77);
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #141212;
+  }
+  
+  tbody tr:hover {
+    background-color: #111010;
+  }
+  
